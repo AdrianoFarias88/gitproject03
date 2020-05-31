@@ -1,0 +1,62 @@
+html {
+    font-size: 10px;
+    color:rgb(213, 221, 199);
+    font-family: 'Chelsea Market', cursive;
+    background-color: #1C577F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /*when two values are specified, the first value affects top and botton side
+                    while the second value affects the left and right side*/
+    background-color: rgb(23, 71, 104);
+    padding: 0 20px 20px 20px;/*the space between the border and text; top, right, botton, left*/
+    border: 5px dashed black;/*width, style and color of the border*/
+}
+/*
+img.resize {
+    width:580px;
+    height: auto;
+}
+*/
+/*link (anchor) style*/
+a {
+    color:rgb(179, 207, 53);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(149, 159, 0);
+    text-shadow: 3px 3px 3px black; /*first px value sets the amount of right offset;
+                                        second px value sets the amount of down offset;
+                                        third px valu sets the blur radius;
+                                        the forth value sets the shadow color.
+                                        the first and second px values can be negative*/
+    font-size: 60px;
+    text-align: center;
+}
+
+img {
+    display: block; /*img is a inline element, while body is a block element. To use margin and 
+                    and other block parameters use display: block to a image have a block behavior*/
+    margin: 0 auto;
+    width: 580px;
+    height:auto;
+}
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+/*
+html{
+    font-size: 10px;
+    font-family:'Roboto', sans-serif;
+}
+
+
+p {
+    color:red;
+}
+*/
