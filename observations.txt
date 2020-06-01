@@ -1,6 +1,9 @@
- *It is best to get into the habit of writing your folder and file names lowercase with no spaces 
+*It is best to get into the habit of writing your folder and file names lowercase with no spaces 
  and with words separated by dashes.
 
 *To rename a directory <dir> to <dir-renamed> use the command <mv dir dir-renamed>
 It's not necessary to create <dir-renamed> before use <mv> command.
 
+*How to open devtools in browser:
+-> Ctrl+Shift+I
+-> Internet Explorer and Edge: F12
